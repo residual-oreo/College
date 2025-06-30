@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Event Details - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Event: Annual Science Fair - College</title>
+  <meta name="description" content="Details for our Annual Science Exhibition, featuring volcanoes, robots, and questionable life choices. Safety goggles recommended.">
+  <meta name="keywords" content="college event, science fair, student projects, robotics, funny event">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,55 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.event-details-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .event .event-content h2,
+    .event .event-content h3,
+    .event .sidebar-widget h3,
+    .event .organizer-content h4,
+    .event .related-event-info h4 {
+      color: #ffffff;
+    }
+
+    .event .event-content p,
+    .event .event-highlights li,
+    .event .schedule-activity p,
+    .event .organizer-content p,
+    .event .related-event-info p {
+      color: #ced4da;
+    }
+
+    .event .meta-item,
+    .event .schedule-time {
+      color: #f8f9fa;
+    }
+
+    .event .sidebar-widget {
+      background-color: #495057;
+      border-color: #6c757d;
+    }
+
+    .event .form-control,
+    .event .form-select {
+      background-color: #6c757d;
+      color: #f8f9fa;
+      border-color: #495057;
+    }
+
+    .event .form-control::placeholder {
+      color: #adb5bd;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="event-details-page">
@@ -42,8 +84,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -62,7 +102,7 @@
 
           <li><a href="students-life.html">Students Life</a></li>
           <li><a href="news.html">News</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
           <li><a href="alumni.html">Alumni</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -71,25 +111,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -109,6 +130,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
             <li class="current">Event Details</li>
           </ol>
         </nav>
@@ -123,7 +145,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="event-image mb-4" data-aos="fade-up">
-              <img src="assets/img/education/events-9.webp" alt="Event" class="img-fluid rounded">
+              <img src="assets/img/education/events-9.webp" alt="A chaotic but fun science fair" class="img-fluid rounded">
             </div>
 
             <div class="event-meta mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -131,54 +153,54 @@
                 <div class="col-md-4">
                   <div class="meta-item">
                     <i class="bi bi-calendar-date"></i>
-                    <span>10/24/2023</span>
+                    <span>Oct 26, 2025</span>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="meta-item">
                     <i class="bi bi-clock"></i>
-                    <span>3:00 PM - 6:00 PM</span>
+                    <span>3:00 PM - Until something explodes</span>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="meta-item">
                     <i class="bi bi-geo-alt"></i>
-                    <span>Main Auditorium</span>
+                    <span>The Main Auditorium (and surrounding blast radius)</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="event-content" data-aos="fade-up" data-aos-delay="200">
-              <h2>Annual Science Exhibition</h2>
+              <h2>The 42nd Annual Science Exhibition</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mauris maximus, finibus dui eget, rhoncus diam. Suspendisse blandit diam at nisi rutrum, non blandit magna molestie. Cras dapibus finibus diam, eu varius purus eleifend eu. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                Join us for a celebration of science, innovation, and the indomitable spirit of students who definitely started their projects last night. This year's theme is "Volcanoes, Robots, and Questionable Life Choices." Safety goggles will be provided and are absolutely not optional.
               </p>
               <p>
-                Donec cursus, sapien vel convallis lobortis, dolor nisl pharetra est, ac facilisis ligula sapien vel justo. Curabitur sed semper risus, non tempus lorem. Nulla sodales feugiat tempus. Cras tincidunt dapibus ante, ut rutrum sapien finibus at. Mauris consequat tellus eu nunc pharetra, eu convallis elit tempor.
+                Witness the marvels of modern student engineering, from potato-powered clocks to robots designed to do laundry (they mostly just knock things over). It's a day of fun, learning, and minor, controlled chaos.
               </p>
 
               <h3 class="mt-4">Event Highlights</h3>
               <ul class="event-highlights">
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Interactive student presentations of scientific experiments</span>
+                  <span>A baking soda volcano that we're 90% sure won't erupt this year.</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Special lecture by renowned physicist Dr. Robert Jenkins</span>
+                  <span>Guest lecture: "Why Pluto Had It Coming" by a very passionate astronomer.</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Robotics competition with prizes for top three teams</span>
+                  <span>A robotics competition where the last robot standing wins.</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Science demonstrations by faculty members</span>
+                  <span>Live demonstrations of things that probably shouldn't be mixed together.</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Exhibition of innovative student projects</span>
+                  <span>Free pizza for anyone who can explain quantum physics in 30 seconds or less.</span>
                 </li>
               </ul>
 
@@ -187,57 +209,57 @@
                 <div class="schedule-row">
                   <div class="schedule-time">3:00 PM - 3:30 PM</div>
                   <div class="schedule-activity">
-                    <h4>Opening Ceremony</h4>
-                    <p>Welcome address by Principal and introduction to the event</p>
+                    <h4>Opening Remarks & Safety Briefing</h4>
+                    <p>A warm welcome and a stern reminder of where the fire extinguishers are.</p>
                   </div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-time">3:30 PM - 4:30 PM</div>
                   <div class="schedule-activity">
-                    <h4>Student Project Presentations</h4>
-                    <p>Selected students showcase their scientific innovations</p>
+                    <h4>Project Showcase</h4>
+                    <p>Students attempt to explain their projects before the caffeine wears off.</p>
                   </div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-time">4:30 PM - 5:15 PM</div>
                   <div class="schedule-activity">
-                    <h4>Guest Lecture</h4>
-                    <p>Special lecture on "Future of Quantum Computing" by Dr. Robert Jenkins</p>
+                    <h4>Guest Lecture: "The Science of Procrastination"</h4>
+                    <p>A deep dive into why you're reading this instead of studying.</p>
                   </div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-time">5:15 PM - 5:45 PM</div>
                   <div class="schedule-activity">
-                    <h4>Robotics Demonstration</h4>
-                    <p>Live demonstration of student-built robots and automation projects</p>
+                    <h4>The Robot Rumble</h4>
+                    <p>Student-built robots engage in a friendly, high-stakes battle for glory.</p>
                   </div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-time">5:45 PM - 6:00 PM</div>
                   <div class="schedule-activity">
-                    <h4>Award Ceremony &amp; Closing</h4>
-                    <p>Distribution of certificates and recognition of outstanding projects</p>
+                    <h4>Awards & Closing Remarks</h4>
+                    <p>Prizes are awarded for "Most Likely to Succeed" and "Most Spectacular Failure."</p>
                   </div>
                 </div>
               </div>
 
               <div class="event-gallery mt-5" data-aos="fade-up" data-aos-delay="300">
                 <h3>Event Gallery</h3>
-                <p>Images from previous year's science exhibition:</p>
+                <p>Highlights from last year's... incident.</p>
                 <div class="row g-4 mt-2">
                   <div class="col-md-4">
                     <a href="assets/img/education/events-1.webp" class="glightbox">
-                      <img src="assets/img/education/events-1.webp" alt="Event Gallery" class="img-fluid rounded">
+                      <img src="assets/img/education/events-1.webp" alt="A student proudly displaying a slightly smoking volcano" class="img-fluid rounded">
                     </a>
                   </div>
                   <div class="col-md-4">
                     <a href="assets/img/education/events-2.webp" class="glightbox">
-                      <img src="assets/img/education/events-2.webp" alt="Event Gallery" class="img-fluid rounded">
+                      <img src="assets/img/education/events-2.webp" alt="A small robot attempting to pour a cup of coffee" class="img-fluid rounded">
                     </a>
                   </div>
                   <div class="col-md-4">
                     <a href="assets/img/education/events-3.webp" class="glightbox">
-                      <img src="assets/img/education/events-3.webp" alt="Event Gallery" class="img-fluid rounded">
+                      <img src="assets/img/education/events-3.webp" alt="A crowd looking impressed and slightly concerned" class="img-fluid rounded">
                     </a>
                   </div>
                 </div>
@@ -249,31 +271,31 @@
             <div class="event-sidebar">
               <div class="sidebar-widget registration-form" data-aos="fade-left" data-aos-delay="200">
                 <h3>Register for this Event</h3>
-                <form>
+                <form action="#" method="post">
                   <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" required="">
+                    <input type="text" class="form-control" id="name" required>
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="email" required="">
+                    <input type="email" class="form-control" id="email" required>
                   </div>
                   <div class="mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
+                    <label for="phone" class="form-label">Phone (for emergency notifications)</label>
                     <input type="tel" class="form-control" id="phone">
                   </div>
                   <div class="mb-3">
-                    <label for="student-type" class="form-label">You are a</label>
+                    <label for="student-type" class="form-label">Your Role in the Chaos</label>
                     <select class="form-select" id="student-type">
-                      <option selected="">Select an option</option>
-                      <option value="student">Student</option>
-                      <option value="parent">Parent</option>
-                      <option value="teacher">Teacher</option>
-                      <option value="other">Other</option>
+                      <option selected>Select an option</option>
+                      <option value="student">Eager Participant</option>
+                      <option value="parent">Concerned Parent</option>
+                      <option value="teacher">Brave Chaperone</option>
+                      <option value="other">Innocent Bystander</option>
                     </select>
                   </div>
                   <div class="d-grid">
-                    <button type="submit" class="btn btn-register">Register Now</button>
+                    <button type="submit" class="btn btn-register">Claim Your Spot</button>
                   </div>
                 </form>
               </div>
@@ -286,10 +308,10 @@
                   </div>
                   <div class="organizer-content">
                     <h4>Prof. Michael Anderson</h4>
-                    <p class="organizer-position">Head of Science Department</p>
-                    <p>For queries related to the event, please contact:</p>
+                    <p class="organizer-position">Head of Controlled Chaos</p>
+                    <p>For questions, concerns, or to report a missing robot:</p>
                     <div class="organizer-contact">
-                      <p><i class="bi bi-envelope"></i> michael@example.com</p>
+                      <p><i class="bi bi-envelope"></i> m.anderson@college.edu</p>
                       <p><i class="bi bi-telephone"></i> +1 (555) 123-4567</p>
                     </div>
                   </div>
@@ -304,8 +326,8 @@
                     <span class="month">Nov</span>
                   </div>
                   <div class="related-event-info">
-                    <h4>Mathematics Olympiad</h4>
-                    <p><i class="bi bi-geo-alt"></i> Room 203, East Wing</p>
+                    <h4>Competitive Napping Finals</h4>
+                    <p><i class="bi bi-geo-alt"></i> The Library (Quiet Zone)</p>
                   </div>
                 </div>
                 <div class="related-event-item">
@@ -314,18 +336,8 @@
                     <span class="month">Dec</span>
                   </div>
                   <div class="related-event-info">
-                    <h4>Literature Festival</h4>
-                    <p><i class="bi bi-geo-alt"></i> Central Library</p>
-                  </div>
-                </div>
-                <div class="related-event-item">
-                  <div class="related-event-date">
-                    <span class="day">18</span>
-                    <span class="month">Dec</span>
-                  </div>
-                  <div class="related-event-info">
-                    <h4>Annual Sports Meet</h4>
-                    <p><i class="bi bi-geo-alt"></i> School Ground</p>
+                    <h4>Interpretive Dance-Off</h4>
+                    <p><i class="bi bi-geo-alt"></i> The Quad</p>
                   </div>
                 </div>
               </div>
@@ -348,60 +360,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -409,12 +421,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

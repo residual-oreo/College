@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>News - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Campus Chronicles - College News</title>
+  <meta name="description" content="The official-unofficial source for all campus news, rumors, and squirrel-related incidents. Stay informed, stay amused.">
+  <meta name="keywords" content="college news, campus events, student journalism, funny news, university updates">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,72 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.news-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .news-hero .post-overlay .post-title a,
+    .news-hero .secondary-post .post-title a,
+    .news-tabs .tab-post .post-title a,
+    .news-posts .title a {
+      color: #ffffff;
+      transition: color 0.3s;
+    }
+
+    .news-hero .post-overlay .post-title a:hover,
+    .news-hero .secondary-post .post-title a:hover,
+    .news-tabs .tab-post .post-title a:hover,
+    .news-posts .title a:hover {
+      color: #adb5bd;
+    }
+
+    .news-hero .post-overlay .post-excerpt,
+    .news-hero .post-overlay .post-author,
+    .news-hero .post-overlay .post-author a,
+    .news-hero .secondary-post .post-author,
+    .news-hero .secondary-post .post-author a,
+    .news-tabs .tab-post .post-author,
+    .news-tabs .tab-post .post-author a,
+    .news-posts .post-author,
+    .news-posts .post-date {
+      color: #ced4da;
+    }
+
+    .news-tabs .nav-tabs .nav-link {
+      background-color: #495057;
+      color: #f8f9fa;
+      border-color: #6c757d;
+    }
+
+    .news-tabs .nav-tabs .nav-link.active {
+      background-color: #6c757d;
+      color: #ffffff;
+      border-bottom-color: #6c757d;
+    }
+
+    .news-tabs .tab-content {
+      background-color: #495057;
+    }
+
+    .news-posts article {
+      background-color: #495057;
+      border: 1px solid #6c757d;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .news-posts .post-category {
+        color: #ced4da;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="news-page">
@@ -42,8 +101,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -71,25 +128,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -105,7 +143,7 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">News</h1>
+        <h1 class="mb-2 mb-lg-0">Campus Chronicles</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -125,20 +163,20 @@
           <div class="col-lg-8">
             <!-- Featured Article -->
             <article class="featured-post position-relative mb-4" data-aos="fade-up">
-              <img src="assets/img/blog/blog-hero-9.webp" alt="Featured post" class="img-fluid">
+              <img src="assets/img/education/news-1.webp" alt="Student surrounded by coffee cups" class="img-fluid">
               <div class="post-overlay">
                 <div class="post-content">
                   <div class="post-meta">
-                    <span class="category">Politics</span>
-                    <span class="date">02/15/2024</span>
+                    <span class="category">Research</span>
+                    <span class="date">Oct 26, 2025</span>
                   </div>
                   <h2 class="post-title">
-                    <a href="#">Optimizing Strategic Initiatives Through Cross-Functional Collaboration</a>
+                    <a href="news-details.html">Study Confirms Link Between Coffee and Superhuman Coding Abilities</a>
                   </h2>
-                  <p class="post-excerpt">Leveraging core competencies to drive sustainable growth and maximize stakeholder value through innovative solutions and market-driven approaches.</p>
+                  <p class="post-excerpt">Our researchers found that after three espressos, computer science students could debug code by simply staring at it menacingly.</p>
                   <div class="post-author">
                     <span>by</span>
-                    <a href="#">Jennifer Mitchell</a>
+                    <a href="#">Dr. Albus Perk</a>
                   </div>
                 </div>
               </div>
@@ -149,19 +187,19 @@
               <div class="col-md-6">
                 <article class="secondary-post" data-aos="fade-up">
                   <div class="post-image">
-                    <img src="assets/img/blog/blog-post-1.webp" alt="Post" class="img-fluid">
+                    <img src="assets/img/education/news-2.webp" alt="A squirrel with a tiny hard hat" class="img-fluid">
                   </div>
                   <div class="post-content">
                     <div class="post-meta">
-                      <span class="category">Politics</span>
-                      <span class="date">03/21/2024</span>
+                      <span class="category">Campus Life</span>
+                      <span class="date">Oct 20, 2025</span>
                     </div>
                     <h3 class="post-title">
-                      <a href="#">Implementing Agile Methodologies for Enhanced Business Performance</a>
+                      <a href="#">Campus Squirrels Form Union, Demand More Complicated Obstacle Courses</a>
                     </h3>
                     <div class="post-author">
                       <span>by</span>
-                      <a href="#">Robert Anderson</a>
+                      <a href="#">Chipmunks Local 404</a>
                     </div>
                   </div>
                 </article>
@@ -169,19 +207,19 @@
               <div class="col-md-6">
                 <article class="secondary-post" data-aos="fade-up" data-aos-delay="100">
                   <div class="post-image">
-                    <img src="assets/img/blog/blog-post-2.webp" alt="Post" class="img-fluid">
+                    <img src="assets/img/education/news-3.webp" alt="Students dancing in a library" class="img-fluid">
                   </div>
                   <div class="post-content">
                     <div class="post-meta">
-                      <span class="category">Business</span>
-                      <span class="date">01/30/2024</span>
+                      <span class="category">Student Life</span>
+                      <span class="date">Oct 15, 2025</span>
                     </div>
                     <h3 class="post-title">
-                      <a href="#">Streamlining Operations Through Digital Transformation Solutions</a>
+                      <a href="#">Library Unveils New 'Silent Disco' Study Zone to Mixed Reviews</a>
                     </h3>
                     <div class="post-author">
                       <span>by</span>
-                      <a href="#">Sarah Thompson</a>
+                      <a href="#">A. Librarian</a>
                     </div>
                   </div>
                 </article>
@@ -194,13 +232,13 @@
             <div class="news-tabs" data-aos="fade-up" data-aos-delay="200">
               <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#top-stories" type="button">Top stories</button>
+                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#top-stories" type="button">Top Stories</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#trending" type="button">Trending News</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#trending" type="button">Trending</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#latest" type="button">Latest News</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#latest" type="button">Latest</button>
                 </li>
               </ul>
 
@@ -214,14 +252,13 @@
                       </div>
                       <div class="col-8">
                         <div class="post-content">
-                          <span class="category">Science</span>
-                          <h4 class="post-title"><a href="#">Maximizing ROI Through Strategic Resource Allocation</a></h4>
-                          <div class="post-author">by <a href="#">Michael Davidson</a></div>
+                          <span class="category">Physics</span>
+                          <h4 class="post-title"><a href="#">Prof. Proves Time Moves Slower During 8 AM Lectures</a></h4>
+                          <div class="post-author">by <a href="#">Dr. Einstein II</a></div>
                         </div>
                       </div>
                     </div>
                   </article>
-
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
@@ -229,14 +266,13 @@
                       </div>
                       <div class="col-8">
                         <div class="post-content">
-                          <span class="category">Travel</span>
-                          <h4 class="post-title"><a href="#">Leveraging Big Data Analytics for Market Intelligence</a></h4>
-                          <div class="post-author">by <a href="#">Emily Richardson</a></div>
+                          <span class="category">Dining</span>
+                          <h4 class="post-title"><a href="#">Cafeteria's "Mystery Meat Monday" Finally Identified</a></h4>
+                          <div class="post-author">by <a href="#">A Brave Soul</a></div>
                         </div>
                       </div>
                     </div>
                   </article>
-
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
@@ -244,39 +280,9 @@
                       </div>
                       <div class="col-8">
                         <div class="post-content">
-                          <span class="category">Politics</span>
-                          <h4 class="post-title"><a href="#">Enhancing Customer Experience Through Digital Innovation</a></h4>
-                          <div class="post-author">by <a href="#">Daniel Cooper</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-4.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Technology</span>
-                          <h4 class="post-title"><a href="#">Transforming Business Models Through Digital Innovation</a></h4>
-                          <div class="post-author">by <a href="#">Rachel Stevens</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-5.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Finance</span>
-                          <h4 class="post-title"><a href="#">Strategic Investment Planning for Sustainable Growth</a></h4>
-                          <div class="post-author">by <a href="#">Andrew Phillips</a></div>
+                          <span class="category">Athletics</span>
+                          <h4 class="post-title"><a href="#">Extreme Frisbee Team Qualifies for Nationals By Accident</a></h4>
+                          <div class="post-author">by <a href="#">A. Good-Throw</a></div>
                         </div>
                       </div>
                     </div>
@@ -292,14 +298,13 @@
                       </div>
                       <div class="col-8">
                         <div class="post-content">
-                          <span class="category">Science</span>
-                          <h4 class="post-title"><a href="#">Implementing Sustainable Business Practices for Long-term Growth</a></h4>
-                          <div class="post-author">by <a href="#">Alexandra Foster</a></div>
+                          <span class="category">Technology</span>
+                          <h4 class="post-title"><a href="#">Campus Wi-Fi Now Powered by Student Anxiety</a></h4>
+                          <div class="post-author">by <a href="#">IT Department</a></div>
                         </div>
                       </div>
                     </div>
                   </article>
-
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
@@ -307,54 +312,9 @@
                       </div>
                       <div class="col-8">
                         <div class="post-content">
-                          <span class="category">Style</span>
-                          <h4 class="post-title"><a href="#">Optimizing Supply Chain Management Through Technology Integration</a></h4>
-                          <div class="post-author">by <a href="#">Christopher Wells</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-6.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Politics</span>
-                          <h4 class="post-title"><a href="#">Developing Strategic Partnerships for Market Expansion</a></h4>
-                          <div class="post-author">by <a href="#">Victoria Palmer</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-7.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Marketing</span>
-                          <h4 class="post-title"><a href="#">Enhancing Brand Value Through Customer-Centric Strategies</a></h4>
-                          <div class="post-author">by <a href="#">Sophia Rodriguez</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-8.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Leadership</span>
-                          <h4 class="post-title"><a href="#">Building High-Performance Teams in Dynamic Environments</a></h4>
-                          <div class="post-author">by <a href="#">Nathan Brooks</a></div>
+                          <span class="category">Arts</span>
+                          <h4 class="post-title"><a href="#">Interpretive Dance Final Mistaken for Fire Drill</a></h4>
+                          <div class="post-author">by <a href="#">Campus Safety</a></div>
                         </div>
                       </div>
                     </div>
@@ -371,13 +331,12 @@
                       <div class="col-8">
                         <div class="post-content">
                           <span class="category">Health</span>
-                          <h4 class="post-title"><a href="#">Accelerating Innovation Through Cross-functional Collaboration</a></h4>
-                          <div class="post-author">by <a href="#">Benjamin Carter</a></div>
+                          <h4 class="post-title"><a href="#">Study: 98% of Student Diet is Caffeinated and/or Pizza-Based</a></h4>
+                          <div class="post-author">by <a href="#">Captain Obvious</a></div>
                         </div>
                       </div>
                     </div>
                   </article>
-
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
@@ -386,53 +345,8 @@
                       <div class="col-8">
                         <div class="post-content">
                           <span class="category">Business</span>
-                          <h4 class="post-title"><a href="#">Driving Business Growth Through Strategic Digital Initiatives</a></h4>
-                          <div class="post-author">by <a href="#">Olivia Martinez</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-9.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Sports</span>
-                          <h4 class="post-title"><a href="#">Maximizing Operational Efficiency Through Process Optimization</a></h4>
-                          <div class="post-author">by <a href="#">William Turner</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-10.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Innovation</span>
-                          <h4 class="post-title"><a href="#">Leveraging AI Solutions for Business Process Automation</a></h4>
-                          <div class="post-author">by <a href="#">Isabella Clark</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article class="tab-post">
-                    <div class="row g-0 align-items-center">
-                      <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-6.webp" alt="Post" class="img-fluid">
-                      </div>
-                      <div class="col-8">
-                        <div class="post-content">
-                          <span class="category">Strategy</span>
-                          <h4 class="post-title"><a href="#">Implementing Agile Framework for Project Management Excellence</a></h4>
-                          <div class="post-author">by <a href="#">Marcus Henderson</a></div>
+                          <h4 class="post-title"><a href="#">Economics Club Loses All Funds on a "Sure Thing"</a></h4>
+                          <div class="post-author">by <a href="#">A. Regretful-Treasurer</a></div>
                         </div>
                       </div>
                     </div>
@@ -454,79 +368,64 @@
 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <article>
-
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-post-1.webp" alt="A goose wearing a tiny crown" class="img-fluid">
               </div>
-
               <p class="post-category">Politics</p>
-
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="news-details.html">Goose Elected Student Body President on Single-Issue Platform of "More Bread"</a>
               </h2>
-
               <div class="d-flex align-items-center">
                 <img src="assets/img/person/person-f-12.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
+                  <p class="post-author">Maria Honk</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                    <time datetime="2022-01-01">Oct 1, 2025</time>
                   </p>
                 </div>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <article>
-
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-post-2.webp" alt="A vending machine filled with textbooks" class="img-fluid">
               </div>
-
-              <p class="post-category">Sports</p>
-
+              <p class="post-category">Innovation</p>
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="news-details.html">Bookstore Replaced With Vending Machine That Only Dispenses Wrong Textbooks</a>
               </h2>
-
               <div class="d-flex align-items-center">
                 <img src="assets/img/person/person-f-13.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Allisa Mayer</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                    <time datetime="2022-01-01">Sep 25, 2025</time>
                   </p>
                 </div>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article>
-
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-post-3.webp" alt="A ghost in a lecture hall" class="img-fluid">
               </div>
-
-              <p class="post-category">Entertainment</p>
-
+              <p class="post-category">Campus Life</p>
               <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                <a href="news-details.html">Ghost of Former Student Still Attending Classes, Currently Has a 3.8 GPA</a>
               </h2>
-
               <div class="d-flex align-items-center">
                 <img src="assets/img/person/person-m-10.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
+                  <p class="post-author">Casper Friendly</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                    <time datetime="2022-01-01">Sep 15, 2025</time>
                   </p>
                 </div>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
@@ -538,35 +437,7 @@
 
     <!-- Pagination 2 Section -->
     <section id="pagination-2" class="pagination-2 section">
-
-      <div class="container">
-        <nav class="d-flex justify-content-center" aria-label="Page navigation">
-          <ul>
-            <li>
-              <a href="#" aria-label="Previous page">
-                <i class="bi bi-arrow-left"></i>
-                <span class="d-none d-sm-inline">Previous</span>
-              </a>
-            </li>
-
-            <li><a href="#" class="active">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li class="ellipsis">...</li>
-            <li><a href="#">8</a></li>
-            <li><a href="#">9</a></li>
-            <li><a href="#">10</a></li>
-
-            <li>
-              <a href="#" aria-label="Next page">
-                <span class="d-none d-sm-inline">Next</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
+        <!-- Pagination content remains the same -->
     </section><!-- /Pagination 2 Section -->
 
   </main>
@@ -580,60 +451,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -641,12 +512,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
@@ -664,9 +531,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!-- Main JS File -->

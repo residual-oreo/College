@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Faculty Staff - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Faculty & Staff (The Brains of the Operation) - College</title>
+  <meta name="description" content="Meet the brilliant, quirky, and highly-caffeinated minds behind our academic programs. They're the experts who will be grading your papers.">
+  <meta name="keywords" content="faculty, staff, professors, college directory, university staff">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,52 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.faculty-staff-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .faculty--staff .faculty-card {
+      background-color: #495057;
+      border-color: #6c757d;
+    }
+
+    .faculty--staff .faculty-info h3,
+    .faculty--staff .faculty-info .profile-link {
+      color: #ffffff;
+    }
+
+    .faculty--staff .faculty-info p,
+    .faculty--staff .faculty-info .department {
+      color: #ced4da;
+    }
+
+    .faculty-search .form-control {
+      background-color: #6c757d;
+      color: #f8f9fa;
+      border-color: #495057;
+    }
+
+    .faculty-search .form-control::placeholder {
+      color: #adb5bd;
+    }
+
+    .faculty-search .search-filters .filter-item {
+      color: #f8f9fa;
+      background-color: #495057;
+    }
+
+    .faculty-search .search-filters .filter-item.active {
+      background-color: #0d6efd;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="faculty-staff-page">
@@ -42,8 +81,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -71,25 +108,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -105,17 +123,17 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Faculty Staff</h1>
+        <h1 class="mb-2 mb-lg-0">Our Faculty & Staff</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Faculty Staff</li>
+            <li class="current">Faculty & Staff</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Faculty  Staff Section -->
+    <!-- Faculty Staff Section -->
     <section id="faculty--staff" class="faculty--staff section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -124,7 +142,7 @@
           <div class="col-lg-8 mx-auto">
             <div class="faculty-search">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search faculty by name, department or research area...">
+                <input type="text" class="form-control" placeholder="Search by name, department, or secret superpower...">
                 <button class="search-btn" type="button">
                   <i class="bi bi-search"></i>
                 </button>
@@ -132,9 +150,8 @@
               <div class="search-filters mt-3 d-flex flex-wrap">
                 <div class="filter-item active">All</div>
                 <div class="filter-item">Professors</div>
-                <div class="filter-item">Associate Professors</div>
-                <div class="filter-item">Assistant Professors</div>
                 <div class="filter-item">Staff</div>
+                <div class="filter-item">Definitely a Superhero</div>
               </div>
             </div>
           </div>
@@ -146,9 +163,9 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-m-3.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-m-3.webp" class="img-fluid" alt="Dr. Thomas Reynolds">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
@@ -156,11 +173,10 @@
                 <div class="faculty-info">
                   <h3>Dr. Thomas Reynolds</h3>
                   <p class="position">Professor of Computer Science</p>
-                  <div class="department">School of Computing</div>
+                  <div class="department">School of "Have You Tried Turning It Off and On Again?"</div>
                   <div class="research-tags">
                     <span>Artificial Intelligence</span>
-                    <span>Machine Learning</span>
-                    <span>Neural Networks</span>
+                    <span>Why Printers Don't Work</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -171,9 +187,9 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-f-5.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-f-5.webp" class="img-fluid" alt="Dr. Sarah Johnson">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
@@ -181,11 +197,10 @@
                 <div class="faculty-info">
                   <h3>Dr. Sarah Johnson</h3>
                   <p class="position">Associate Professor of Biology</p>
-                  <div class="department">Department of Life Sciences</div>
+                  <div class="department">Department of Things That Are Alive</div>
                   <div class="research-tags">
-                    <span>Molecular Biology</span>
                     <span>Genetics</span>
-                    <span>Biotechnology</span>
+                    <span>The Secret Lives of Plants</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -196,21 +211,20 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-m-7.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-m-7.webp" class="img-fluid" alt="Dr. Michael Chen">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
                 <div class="faculty-info">
                   <h3>Dr. Michael Chen</h3>
-                  <p class="position">Assistant Professor of Physics</p>
-                  <div class="department">Department of Physical Sciences</div>
+                  <p class="position">Professor of Physics</p>
+                  <div class="department">Department of Making Things Go Boom (Safely)</div>
                   <div class="research-tags">
                     <span>Quantum Mechanics</span>
-                    <span>Particle Physics</span>
-                    <span>Astrophysics</span>
+                    <span>Why Toast Lands Butter-Side Down</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -221,9 +235,9 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-f-8.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-f-8.webp" class="img-fluid" alt="Dr. Elizabeth Parker">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
@@ -231,11 +245,10 @@
                 <div class="faculty-info">
                   <h3>Dr. Elizabeth Parker</h3>
                   <p class="position">Professor of Literature</p>
-                  <div class="department">College of Humanities</div>
+                  <div class="department">College of Overthinking Things</div>
                   <div class="research-tags">
                     <span>Modern Literature</span>
-                    <span>Critical Theory</span>
-                    <span>Creative Writing</span>
+                    <span>The Philosophy of Memes</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -246,9 +259,9 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-m-11.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-m-11.webp" class="img-fluid" alt="Dr. Robert Williams">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
@@ -256,11 +269,10 @@
                 <div class="faculty-info">
                   <h3>Dr. Robert Williams</h3>
                   <p class="position">Associate Professor of Economics</p>
-                  <div class="department">Business School</div>
+                  <div class="department">Business School of Business-y Things</div>
                   <div class="research-tags">
                     <span>Macroeconomics</span>
-                    <span>International Trade</span>
-                    <span>Economic Policy</span>
+                    <span>The Avocado Toast Economy</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -271,21 +283,20 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="faculty-card">
                 <div class="faculty-image">
-                  <img src="assets/img/person/person-f-12.webp" class="img-fluid" alt="Faculty Member">
+                  <img src="assets/img/person/person-f-12.webp" class="img-fluid" alt="Dr. Jennifer Lopez">
                   <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
                 <div class="faculty-info">
                   <h3>Dr. Jennifer Lopez</h3>
-                  <p class="position">Assistant Professor of Psychology</p>
-                  <div class="department">Department of Behavioral Sciences</div>
+                  <p class="position">Head of Campus Morale</p>
+                  <div class="department">Department of Student Happiness</div>
                   <div class="research-tags">
-                    <span>Cognitive Psychology</span>
-                    <span>Child Development</span>
-                    <span>Behavioral Studies</span>
+                    <span>Positive Psychology</span>
+                    <span>Free Pizza Distribution</span>
                   </div>
                   <a href="#" class="profile-link">View Profile</a>
                 </div>
@@ -316,7 +327,7 @@
 
       </div>
 
-    </section><!-- /Faculty  Staff Section -->
+    </section><!-- /Faculty Staff Section -->
 
   </main>
 
@@ -329,60 +340,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -390,12 +401,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

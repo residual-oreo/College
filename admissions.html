@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Admissions - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Admissions (The First Quest) - College</title>
+  <meta name="description" content="Ready to join the chaos? Learn how to apply, what it costs, and why our application is the most fun you'll have filling out forms.">
+  <meta name="keywords" content="admissions, apply to college, university application, college requirements, tuition">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,62 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.admissions-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .admissions .section-subtitle,
+    .admissions .step-content h4,
+    .admissions .requirements-list span,
+    .admissions .tuition-card h4,
+    .admissions .deadlines-card h4,
+    .admissions .visit-content h3 {
+      color: #ffffff;
+    }
+
+    .admissions .step-content p,
+    .admissions .special-note p,
+    .admissions .financial-aid p,
+    .admissions .deadline-item p,
+    .admissions .visit-content p,
+    .admissions .visit-options li,
+    .admissions .virtual-option span {
+      color: #ced4da;
+    }
+
+    .admissions .application-steps,
+    .admissions .requirements-card,
+    .admissions .tuition-card,
+    .admissions .contact-form-card,
+    .admissions .deadlines-card,
+    .admissions .visit-content {
+      background-color: #495057;
+      border-color: #6c757d;
+    }
+
+    .admissions .form-control,
+    .admissions .form-select {
+      background-color: #6c757d;
+      color: #f8f9fa;
+      border-color: #495057;
+    }
+
+    .admissions .form-control::placeholder {
+      color: #adb5bd;
+    }
+
+    .admissions .table {
+      color: #f8f9fa;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="admissions-page">
@@ -42,8 +91,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -71,25 +118,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -123,34 +151,34 @@
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="application-steps">
-              <h3 class="section-subtitle">How to Apply</h3>
+              <h3 class="section-subtitle">How to Apply: Your First Quest</h3>
               <div class="steps-wrapper">
                 <div class="step-item">
                   <div class="step-number">01</div>
                   <div class="step-content">
                     <h4>Submit Application</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <p>Fill out the forms. We promise it's less painful than a group project. Mostly.</p>
                   </div>
                 </div>
                 <div class="step-item">
                   <div class="step-number">02</div>
                   <div class="step-content">
                     <h4>Send Documents</h4>
-                    <p>Aenean quis feugiat ligula. Duis hendrerit felis id aliquet cursus. Vestibulum vel ipsum eu magna blandit volutpat.</p>
+                    <p>Gather your transcripts, letters of recommendation, and a small, non-perishable offering for the Admissions Gods.</p>
                   </div>
                 </div>
                 <div class="step-item">
                   <div class="step-number">03</div>
                   <div class="step-content">
-                    <h4>Interview Process</h4>
-                    <p>Pellentesque diam tellus, scelerisque quis sodales vel, dignissim eu justo. Mauris dictum felis non arcu ullamcorper.</p>
+                    <h4>The Interview</h4>
+                    <p>A friendly chat where we make sure you're not a robot. Unless you're applying for the robotics program.</p>
                   </div>
                 </div>
                 <div class="step-item">
                   <div class="step-number">04</div>
                   <div class="step-content">
-                    <h4>Decision Letter</h4>
-                    <p>Curabitur vulputate tellus sapien, id ultrices libero egestas ac. Sed in vestibulum dui, ac consequat enim.</p>
+                    <h4>Await Your Fate</h4>
+                    <p>We'll send a decision letter via email, carrier pigeon, or a squirrel with a tiny scroll. Whichever is fastest.</p>
                   </div>
                 </div>
               </div>
@@ -159,40 +187,40 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="requirements-card">
-              <h3 class="section-subtitle">Admission Requirements</h3>
+              <h3 class="section-subtitle">What You'll Need</h3>
               <ul class="requirements-list">
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Completed Application Form</span>
+                  <span>A completed application form (all fields, please!)</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Official High School Transcripts</span>
+                  <span>Official transcripts that prove you went to class</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>SAT or ACT Scores (Optional for 2024-2025)</span>
+                  <span>SAT/ACT scores (or a really good excuse)</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Two Letters of Recommendation</span>
+                  <span>Two letters of recommendation from people who like you</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Personal Essay (500-650 words)</span>
+                  <span>A personal essay about your life's greatest challenge (besides this application)</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Application Fee ($65 non-refundable)</span>
+                  <span>A $65 fee (to power our coffee machine)</span>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>
-                  <span>Interview (for selected programs only)</span>
+                  <span>A positive attitude and a healthy sense of humor</span>
                 </li>
               </ul>
               <div class="special-note">
                 <i class="bi bi-info-circle"></i>
-                <p>International students require additional documentation including TOEFL/IELTS scores and visa information.</p>
+                <p>International students may need to provide proof they can survive our winters and understand our local slang.</p>
               </div>
             </div>
           </div>
@@ -201,14 +229,14 @@
         <div class="row mt-5 gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="tuition-card">
-              <h3 class="section-subtitle">Tuition &amp; Fees</h3>
+              <h3 class="section-subtitle">The Investment (aka Tuition & Fees)</h3>
               <div class="tuition-table">
                 <table class="table">
                   <thead>
                     <tr>
-                      <th>Program</th>
+                      <th>Program Level</th>
                       <th>Tuition (per year)</th>
-                      <th>Fees</th>
+                      <th>Fees (for pizza parties, etc.)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -228,16 +256,16 @@
                       <td>$4,500</td>
                     </tr>
                     <tr>
-                      <td>Online Programs</td>
-                      <td>$26,400</td>
-                      <td>$1,800</td>
+                      <td>Squirrel Studies</td>
+                      <td>$15,000 + nuts</td>
+                      <td>$500</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <div class="financial-aid">
-                <h4>Financial Aid Available</h4>
-                <p>Over 75% of our students receive some form of financial assistance. Merit scholarships range from $5,000 to full tuition.</p>
+                <h4>Don't Panic! Financial Aid is Here.</h4>
+                <p>Over 75% of our students get help paying for this stuff. We have scholarships for everything from academic genius to competitive napping.</p>
                 <a href="#" class="btn btn-aid">Explore Financial Aid Options</a>
               </div>
             </div>
@@ -245,30 +273,30 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="contact-form-card">
-              <h3 class="section-subtitle">Request Information</h3>
+              <h3 class="section-subtitle">Ask Us Anything!</h3>
               <form action="forms/contact.php" class="php-email-form">
                 <div class="row g-3">
                   <div class="col-12">
-                    <input type="text" name="name" class="form-control" placeholder="Name*" required="">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name*" required="">
                   </div>
                   <div class="col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address*" required="">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email*" required="">
                   </div>
                   <div class="col-md-6">
-                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+                    <input type="tel" name="phone" class="form-control" placeholder="Phone (Optional)">
                   </div>
                   <div class="col-12">
                     <select name="subject" class="form-select" required="">
                       <option selected="" disabled="">Program of Interest*</option>
                       <option>Undergraduate</option>
                       <option>Graduate</option>
-                      <option>Doctoral</option>
-                      <option>Certificate</option>
-                      <option>Non-Degree</option>
+                      <option>Squirrel Watching</option>
+                      <option>Competitive Napping</option>
+                      <option>Other</option>
                     </select>
                   </div>
                   <div class="col-12">
-                    <textarea name="message" class="form-control" rows="7" placeholder="Questions or Comments"></textarea>
+                    <textarea name="message" class="form-control" rows="7" placeholder="Your burning questions..."></textarea>
                   </div>
                   <div class="col-12">
                     <div class="loading">Loading</div>
@@ -285,27 +313,27 @@
         <div class="row mt-5">
           <div class="col-12" data-aos="fade-up" data-aos-delay="100">
             <div class="deadlines-card">
-              <h3 class="section-subtitle">Important Deadlines</h3>
+              <h3 class="section-subtitle">Don't Miss These Dates!</h3>
               <div class="deadlines-grid">
                 <div class="deadline-item" data-aos="zoom-in" data-aos-delay="200">
                   <div class="deadline-date">November 1</div>
                   <h4>Early Decision</h4>
-                  <p>For students committed to attending if accepted</p>
+                  <p>For the eager beavers who know this is the place.</p>
                 </div>
                 <div class="deadline-item" data-aos="zoom-in" data-aos-delay="300">
                   <div class="deadline-date">January 15</div>
                   <h4>Regular Decision</h4>
-                  <p>Main application deadline for Fall admission</p>
+                  <p>The main event. No pressure, but... no pressure.</p>
                 </div>
                 <div class="deadline-item" data-aos="zoom-in" data-aos-delay="400">
                   <div class="deadline-date">March 1</div>
                   <h4>Financial Aid</h4>
-                  <p>Priority deadline for scholarship consideration</p>
+                  <p>The deadline for asking us for money. It's important.</p>
                 </div>
                 <div class="deadline-item" data-aos="zoom-in" data-aos-delay="500">
                   <div class="deadline-date">May 1</div>
                   <h4>Enrollment Deposit</h4>
-                  <p>Deadline to confirm attendance and secure your spot</p>
+                  <p>The "Yes, I'm really coming!" deadline. We'll save you a seat.</p>
                 </div>
               </div>
             </div>
@@ -316,23 +344,23 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <div class="visit-image">
               <img src="assets/img/education/campus-5.webp" class="img-fluid" alt="Campus Visit" loading="lazy">
-              <div class="image-caption">Experience our beautiful campus in person</div>
+              <div class="image-caption">Our campus is even better in person. Promise.</div>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
             <div class="visit-content">
-              <h3>Schedule a Campus Visit</h3>
-              <p>Join us for a personalized campus tour and experience our vibrant community firsthand. Our guided tours offer an inside look at academic facilities, residence halls, and student life. You'll also have the opportunity to meet with admissions counselors, faculty members, and current students.</p>
+              <h3>Come Say Hi!</h3>
+              <p>The best way to know if we're the right fit is to see the controlled chaos for yourself. Come for a tour, stay for the free coffee.</p>
               <ul class="visit-options">
-                <li><i class="bi bi-calendar-check"></i> Daily campus tours (Mon-Fri, 10am &amp; 2pm)</li>
-                <li><i class="bi bi-people"></i> Information sessions with admissions staff</li>
-                <li><i class="bi bi-building"></i> Residence hall viewings</li>
-                <li><i class="bi bi-mortarboard"></i> Faculty meetings (by appointment)</li>
+                <li><i class="bi bi-calendar-check"></i> Daily campus tours (where we point out the best nap spots)</li>
+                <li><i class="bi bi-people"></i> Meet real, live students and faculty</li>
+                <li><i class="bi bi-building"></i> See a dorm room that is definitely cleaner than it usually is</li>
+                <li><i class="bi bi-mortarboard"></i> Ask our tour guides anything. We dare you.</li>
               </ul>
               <a href="#" class="btn btn-schedule">Schedule Your Visit</a>
               <div class="virtual-option">
-                <span>Can't visit in person?</span>
-                <a href="#" class="virtual-link">Take a Virtual Tour <i class="bi bi-arrow-right"></i></a>
+                <span>Can't make it?</span>
+                <a href="#" class="virtual-link">Take the Virtual Tour <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -353,60 +381,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -414,12 +442,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Alumni - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Alumni (The Survivors) - College</title>
+  <meta name="description" content="Welcome back, alumni! See what your fellow graduates are up to, find events, and remember the good old days of late-night studying and questionable cafeteria food.">
+  <meta name="keywords" content="alumni, college graduates, university alumni, alumni network, success stories">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,45 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.alumni-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .alumni .alumni-intro h2,
+    .alumni .alumni-card h4,
+    .alumni .event-card h4,
+    .alumni .involvement-card h4,
+    .alumni .donation-banner h3,
+    .alumni h3,
+    .alumni .lead {
+      color: #ffffff;
+    }
+
+    .alumni .alumni-intro p,
+    .alumni .stat-label,
+    .alumni .alumni-card p,
+    .alumni .event-details p,
+    .alumni .involvement-card p,
+    .alumni .donation-banner p {
+      color: #ced4da;
+    }
+
+    .alumni .alumni-card,
+    .alumni .event-card,
+    .alumni .involvement-card,
+    .alumni .donation-banner {
+      background-color: #495057;
+      border-color: #6c757d;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="alumni-page">
@@ -42,8 +74,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -71,25 +101,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -123,8 +134,8 @@
         <div class="row mb-5">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="alumni-intro">
-              <h2>Our Alumni Network</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+              <h2>Our Esteemed Network of Survivors</h2>
+              <p>You made it! You survived the 8 AM lectures, the mystery meat in the cafeteria, and the final exams. Now you're part of an exclusive club of graduates who are out there changing the world (or at least trying to).</p>
               <div class="alumni-stats d-flex flex-wrap">
                 <div class="stat-item">
                   <span class="stat-number">25k+</span>
@@ -132,11 +143,11 @@
                 </div>
                 <div class="stat-item">
                   <span class="stat-number">118</span>
-                  <span class="stat-label">Countries</span>
+                  <span class="stat-label">Countries Represented</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-number">65+</span>
-                  <span class="stat-label">Years of Excellence</span>
+                  <span class="stat-number">99%</span>
+                  <span class="stat-label">Still Miss Napping</span>
                 </div>
               </div>
             </div>
@@ -151,7 +162,7 @@
         <div class="row mb-5">
           <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
             <h3>Success Stories</h3>
-            <p class="lead">Meet some of our distinguished alumni making a difference around the world</p>
+            <p class="lead">Meet some of our distinguished alumni who are doing cool stuff.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
@@ -162,8 +173,8 @@
               <div class="alumni-content">
                 <h4>Dr. Michael Roberts</h4>
                 <p class="alumni-class">Class of 2007</p>
-                <p class="alumni-position">Chief Medical Officer, Global Health Initiative</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis.</p>
+                <p class="alumni-position">Lead Goose Psychologist</p>
+                <p>Dr. Roberts pioneered the groundbreaking theory that our campus geese aren't aggressive, they're just misunderstood. His work has led to a 30% decrease in stolen lunches.</p>
                 <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
@@ -177,8 +188,8 @@
               <div class="alumni-content">
                 <h4>Sarah Chen, Ph.D.</h4>
                 <p class="alumni-class">Class of 2010</p>
-                <p class="alumni-position">Senior Researcher at NASA</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis et pulvinar dapibus leo.</p>
+                <p class="alumni-position">Professional Napping Consultant</p>
+                <p>After perfecting the 20-minute power nap in our library, Sarah now advises top tech companies on how to implement effective napping strategies for maximum productivity.</p>
                 <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
@@ -192,8 +203,8 @@
               <div class="alumni-content">
                 <h4>James Wilson</h4>
                 <p class="alumni-class">Class of 2012</p>
-                <p class="alumni-position">Founder &amp; CEO, GreenTech Solutions</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis et pulvinar.</p>
+                <p class="alumni-position">Founder &amp; CEO, Self-Watering Plants Inc.</p>
+                <p>Inspired by his inability to keep a dorm plant alive, James invented a revolutionary pot that does the work for you. He is now a millionaire and his plants are thriving.</p>
                 <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
@@ -207,7 +218,7 @@
         <div class="row mb-5 alumni-events-section">
           <div class="col-12 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
             <h3>Upcoming Alumni Events</h3>
-            <p class="lead">Connect with fellow graduates at these exciting events</p>
+            <p class="lead">Reconnect, reminisce, and see who has the best "adult" job.</p>
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
@@ -217,10 +228,10 @@
                 <span class="event-month">MAR</span>
               </div>
               <div class="event-details">
-                <h4>Annual Alumni Reunion</h4>
+                <h4>The Annual "Remember When?" Gala</h4>
                 <p><i class="bi bi-geo-alt"></i> Main Campus, Grand Hall</p>
                 <p><i class="bi bi-clock"></i> 6:00 PM - 10:00 PM</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst.</p>
+                <p>A night to relive the glory days, tell exaggerated stories, and enjoy food that is significantly better than what the cafeteria used to serve.</p>
                 <a href="#" class="btn btn-outline-primary">Register Now</a>
               </div>
             </div>
@@ -233,24 +244,24 @@
                 <span class="event-month">APR</span>
               </div>
               <div class="event-details">
-                <h4>Career Networking Night</h4>
+                <h4>Career Networking Night (and Complaints)</h4>
                 <p><i class="bi bi-geo-alt"></i> Downtown Convention Center</p>
                 <p><i class="bi bi-clock"></i> 7:00 PM - 9:30 PM</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst. Mauris eu risus sed.</p>
+                <p>A great opportunity to network with fellow alumni, exchange business cards, and complain about your boss with people who understand.</p>
                 <a href="#" class="btn btn-outline-primary">Register Now</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 text-center mt-4" data-aos="fade-up" data-aos-delay="500">
-            <a href="#" class="btn btn-link">View All Events <i class="bi bi-calendar-check"></i></a>
+            <a href="events.html" class="btn btn-link">View All Events <i class="bi bi-calendar-check"></i></a>
           </div>
         </div>
 
         <div class="row get-involved-section">
           <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
             <h3>Get Involved</h3>
-            <p class="lead">Ways to stay connected and give back to your alma mater</p>
+            <p class="lead">You've escaped, but you can always come back to help.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
@@ -259,7 +270,7 @@
                 <i class="bi bi-hand-thumbs-up"></i>
               </div>
               <h4>Mentor a Student</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
+              <p>Share your hard-earned wisdom. Teach a student how to properly format a bibliography at 3 AM or how to make instant ramen taste gourmet.</p>
               <a href="#" class="btn btn-sm btn-outline-primary mt-2">Learn More</a>
             </div>
           </div>
@@ -269,8 +280,8 @@
               <div class="involvement-icon">
                 <i class="bi bi-award"></i>
               </div>
-              <h4>Scholarship Fund</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
+              <h4>The "Free Pizza" Fund</h4>
+              <p>Contribute to our most important scholarship fund, which ensures that no student has to study for finals without the moral support of a cheesy slice.</p>
               <a href="#" class="btn btn-sm btn-outline-primary mt-2">Donate Now</a>
             </div>
           </div>
@@ -280,8 +291,8 @@
               <div class="involvement-icon">
                 <i class="bi bi-people"></i>
               </div>
-              <h4>Alumni Association</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
+              <h4>Join the Association</h4>
+              <p>Become an official member of the Alumni Association. You get a cool pin and access to exclusive events where you can pretend you're still in college.</p>
               <a href="#" class="btn btn-sm btn-outline-primary mt-2">Join Today</a>
             </div>
           </div>
@@ -290,8 +301,8 @@
             <div class="donation-banner">
               <div class="row align-items-center">
                 <div class="col-lg-8 mb-3 mb-lg-0">
-                  <h3>Support the Future Generation</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                  <h3>Support the Next Generation of Procrastinators</h3>
+                  <p>Your donation helps us continue our proud tradition of academic excellence, groundbreaking research, and providing a safe haven for squirrels.</p>
                 </div>
                 <div class="col-lg-4 text-lg-end">
                   <a href="#" class="btn btn-primary btn-lg">Make a Donation</a>
@@ -316,60 +327,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -377,12 +388,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

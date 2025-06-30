@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Students Life - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Student Life (The Fun Part) - College</title>
+  <meta name="description" content="Beyond the books: Discover the clubs, activities, and support systems that make life at College an unforgettable adventure.">
+  <meta name="keywords" content="student life, campus clubs, college activities, student support, campus recreation">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +27,41 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: College
-  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
-  * Updated: Jun 19 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom Dark Theme -->
+  <style>
+    body.students-life-page {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    .students-life .student-life-intro h3,
+    .students-life h3,
+    .students-life h5 {
+      color: #ffffff;
+    }
+
+    .students-life p,
+    .students-life .organization-card p,
+    .students-life .athletics-content p,
+    .students-life .facility-info p,
+    .students-life .service-card p {
+      color: #ced4da;
+    }
+
+    .students-life .organization-card,
+    .students-life .athletics-card,
+    .students-life .facility-card,
+    .students-life .service-card,
+    .students-life .cta-block {
+      background-color: #495057;
+      border: 1px solid #6c757d;
+    }
+
+    .page-title {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
 </head>
 
 <body class="students-life-page">
@@ -42,8 +70,6 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">College</h1>
       </a>
 
@@ -71,25 +97,6 @@
               <li><a href="privacy.html">Privacy</a></li>
               <li><a href="terms-of-service.html">Terms of Service</a></li>
               <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -109,7 +116,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Students Life</li>
+            <li class="current">Student Life</li>
           </ol>
         </nav>
       </div>
@@ -122,15 +129,15 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="200">
-            <img src="assets/img/education/campus-1.webp" class="img-fluid rounded" alt="Campus Life">
+            <img src="assets/img/education/campus-1.webp" class="img-fluid rounded" alt="Students laughing on campus grounds">
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="student-life-intro">
-              <h3>Vibrant Campus Experience</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius felis nec sem viverra, nec tincidunt felis mollis. Sed consectetur, est vel tincidunt imperdiet, magna urna bibendum magna, non fringilla dolor nunc non felis.</p>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <h3>A Campus Experience More Vibrant Than Your Highlighter Collection</h3>
+              <p>Life at College is more than just lectures and late-night study sessions. It's about finding your people, discovering new passions, and making memories that will last longer than your student loan debt.</p>
+              <p>We believe that a balanced life is key. That's why we offer a dizzying array of activities designed to help you procrastinate on your assignments in a productive, character-building way.</p>
               <div class="mt-4">
-                <a href="#" class="btn btn-outline-primary">Explore Campus</a>
+                <a href="contact.html" class="btn btn-outline-primary">Join the Fun</a>
               </div>
             </div>
           </div>
@@ -142,40 +149,40 @@
             <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
               <div class="organization-card">
                 <div class="icon-box">
-                  <i class="bi bi-music-note-beamed"></i>
+                  <i class="bi bi-joystick"></i>
                 </div>
-                <h5>Music &amp; Performance</h5>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
-                <span class="badge">15+ Groups</span>
+                <h5>Competitive Napping Club</h5>
+                <p>Master the art of the 20-minute power nap between classes. Advanced members can sleep through an 8 AM lecture undetected.</p>
+                <span class="badge">15+ Masters</span>
               </div>
             </div>
 
             <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
               <div class="organization-card">
                 <div class="icon-box">
-                  <i class="bi bi-globe-americas"></i>
+                  <i class="bi bi-cup-hot"></i>
                 </div>
-                <h5>Cultural Organizations</h5>
-                <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                <span class="badge">20+ Groups</span>
+                <h5>Caffeine Connoisseurs</h5>
+                <p>Explore the philosophical implications of single-origin vs. blended coffee. Meets daily, or whenever someone needs a cup.</p>
+                <span class="badge">20+ Aficionados</span>
               </div>
             </div>
 
             <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
               <div class="organization-card">
                 <div class="icon-box">
-                  <i class="bi bi-book"></i>
+                  <i class="bi bi-question-circle"></i>
                 </div>
-                <h5>Academic Clubs</h5>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Donec id elit non mi.</p>
-                <span class="badge">25+ Clubs</span>
+                <h5>Squirrel Watching Society</h5>
+                <p>Document the complex social hierarchies and daring acrobatic feats of our campus's most powerful residents. Nuts provided.</p>
+                <span class="badge">25+ Observers</span>
               </div>
             </div>
           </div>
         </div>
 
         <div class="athletics-programs mt-5 pt-3" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="text-center mb-4">Athletics &amp; Recreation</h3>
+          <h3 class="text-center mb-4">Athletics &amp; Mildly-Strenuous Recreation</h3>
 
           <div class="athletics-slider swiper init-swiper" data-aos="fade-up" data-aos-delay="300">
             <script type="application/json" class="swiper-config">
@@ -207,8 +214,8 @@
                 <div class="athletics-card">
                   <img src="assets/img/education/activities-2.webp" class="img-fluid" loading="lazy" alt="Swimming">
                   <div class="athletics-content">
-                    <h5>Swimming</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <h5>Synchronized Library Chair Swiveling</h5>
+                    <p>A sport of grace, timing, and trying not to make too much noise. Points awarded for style and silence.</p>
                   </div>
                 </div>
               </div>
@@ -217,8 +224,8 @@
                 <div class="athletics-card">
                   <img src="assets/img/education/activities-4.webp" class="img-fluid" loading="lazy" alt="Basketball">
                   <div class="athletics-content">
-                    <h5>Basketball</h5>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in.</p>
+                    <h5>Extreme Frisbee Golf</h5>
+                    <p>The only sport where hitting the Dean's window is both a penalty and a legendary achievement.</p>
                   </div>
                 </div>
               </div>
@@ -227,8 +234,8 @@
                 <div class="athletics-card">
                   <img src="assets/img/education/activities-6.webp" class="img-fluid" loading="lazy" alt="Soccer">
                   <div class="athletics-content">
-                    <h5>Soccer</h5>
-                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus.</p>
+                    <h5>Varsity Speed-Walking to Class</h5>
+                    <p>For those who hit snooze one too many times. We are the reigning regional champions.</p>
                   </div>
                 </div>
               </div>
@@ -237,8 +244,8 @@
                 <div class="athletics-card">
                   <img src="assets/img/education/activities-8.webp" class="img-fluid" loading="lazy" alt="Tennis">
                   <div class="athletics-content">
-                    <h5>Tennis</h5>
-                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque.</p>
+                    <h5>Competitive Textbook Stacking</h5>
+                    <p>Test your engineering skills and the limits of gravity. The winner gets bragging rights and a serious backache.</p>
                   </div>
                 </div>
               </div>
@@ -248,7 +255,7 @@
         </div>
 
         <div class="campus-facilities mt-5 pt-3" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="text-center mb-4">Campus Facilities</h3>
+          <h3 class="text-center mb-4">Campus Facilities (The Important Stuff)</h3>
 
           <div class="row g-4">
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
@@ -256,7 +263,7 @@
                 <img src="assets/img/education/campus-4.webp" class="img-fluid" alt="Housing">
                 <div class="facility-info">
                   <h5>Student Housing</h5>
-                  <p>Comfortable living spaces designed for academic success and community building.</p>
+                  <p>Cozy, comfortable rooms where you can store your ramen collection and question your life choices.</p>
                 </div>
               </div>
             </div>
@@ -266,7 +273,7 @@
                 <img src="assets/img/education/campus-5.webp" class="img-fluid" alt="Dining">
                 <div class="facility-info">
                   <h5>Dining Facilities</h5>
-                  <p>Multiple dining options with diverse meal plans to accommodate all dietary preferences.</p>
+                  <p>Featuring the legendary "Mystery Meat Monday" and a salad bar for when your parents visit.</p>
                 </div>
               </div>
             </div>
@@ -275,8 +282,8 @@
               <div class="facility-card">
                 <img src="assets/img/education/campus-6.webp" class="img-fluid" alt="Library">
                 <div class="facility-info">
-                  <h5>Modern Library</h5>
-                  <p>Extensive collection of resources with dedicated study spaces and digital access.</p>
+                  <h5>The Library (aka The Nap Zone)</h5>
+                  <p>A quiet place for "studying." Also features an extensive collection of books, probably.</p>
                 </div>
               </div>
             </div>
@@ -286,108 +293,9 @@
                 <img src="assets/img/education/campus-7.webp" class="img-fluid" alt="Recreation">
                 <div class="facility-info">
                   <h5>Recreation Center</h5>
-                  <p>State-of-the-art fitness equipment, courts, and spaces for group activities.</p>
+                  <p>A place to work off the stress of your exams and the calories from late-night pizza.</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="support-services mt-5 pt-3" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="text-center mb-4">Student Support Services</h3>
-
-          <div class="row g-4">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-card">
-                <div class="icon-box">
-                  <i class="bi bi-heart-pulse"></i>
-                </div>
-                <h5>Health &amp; Wellness</h5>
-                <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-card">
-                <div class="icon-box">
-                  <i class="bi bi-briefcase"></i>
-                </div>
-                <h5>Career Services</h5>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
-                <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-card">
-                <div class="icon-box">
-                  <i class="bi bi-universal-access"></i>
-                </div>
-                <h5>Accessibility Services</h5>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="student-gallery mt-5 pt-3" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="text-center mb-4">Student Life Gallery</h3>
-
-          <div class="row g-3">
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-              <a href="assets/img/education/students-1.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-1.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-              <a href="assets/img/education/students-2.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-2.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-              <a href="assets/img/education/students-3.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-3.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
-              <a href="assets/img/education/students-4.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-4.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
-              <a href="assets/img/education/students-5.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-5.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
-              <a href="assets/img/education/students-6.webp" class="gallery-item glightbox">
-                <img src="assets/img/education/students-6.webp" class="img-fluid" loading="lazy" alt="Student Life">
-                <div class="gallery-overlay">
-                  <i class="bi bi-plus-circle"></i>
-                </div>
-              </a>
             </div>
           </div>
         </div>
@@ -395,12 +303,12 @@
         <div class="cta-block mt-5 pt-3" data-aos="fade-up" data-aos-delay="200">
           <div class="row align-items-center">
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="300">
-              <h3>Ready to Experience Student Life?</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius felis nec sem viverra, nec tincidunt felis mollis.</p>
+              <h3>Ready to Join the Shenanigans?</h3>
+              <p>Stop reading and start experiencing. Your future as a Squirrel Watching champion awaits.</p>
             </div>
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="400">
-              <a href="#" class="btn btn-primary">Schedule a Visit</a>
-              <a href="#" class="btn btn-outline-primary ms-2">Contact Us</a>
+              <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+              <a href="contact.html" class="btn btn-outline-primary ms-2">Ask a Question</a>
             </div>
           </div>
         </div>
@@ -420,60 +328,60 @@
             <span class="sitename">College</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 University Drive</p>
+            <p>Knowledge City, ST 54321</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 555 123 4567</span></p>
+            <p><strong>Email:</strong> <span>info@college.edu</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="terms-of-service.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Academics</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="academics.html">Programs & Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="faculty-staff.html">Faculty Directory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Admissions</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="admissions.html">Apply Now</a></li>
+            <li><a href="#">Visit Campus</a></li>
+            <li><a href="#">Tuition & Fees</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Requirements</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Campus Life</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="students-life.html">Student Clubs</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Campus Map</a></li>
           </ul>
         </div>
 
@@ -481,12 +389,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
@@ -504,9 +408,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!-- Main JS File -->
